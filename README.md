@@ -1,6 +1,8 @@
 # ESP32 + SvelteKit
 
-The an example of serving a SvelteKit app from an ESP32 microcontroller.
+The an example of serving a SvelteKit app from an [ESP32 microcontroller](https://www.espressif.com/en/products/socs/esp32).
+
+ESP32 is [$2 microcontroller](https://www.aliexpress.com/w/wholesale-esp32-chip.html) with intergrated WIFI and Bluetooth.
 
 Tested with a [WROOM-32 devkit](https://abra-electronics.com/robotics-embedded-electronics/esp-series/wifi-esp32-esp-wroom-32-wi-fi-bluetooth-ble-low-power-iot-microcontroller.html)
 
@@ -28,3 +30,7 @@ pnpm build
 # copy `build` folder to device
 rshell rsync build /pyboard/build
 ```
+
+## License
+
+MIT
