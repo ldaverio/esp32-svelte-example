@@ -1,3 +1,4 @@
+import machine
 from network import WLAN, STA_IF
 from microdot import Microdot, send_file
 
