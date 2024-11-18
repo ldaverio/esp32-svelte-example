@@ -6,9 +6,9 @@ Tested with a [WROOM-32 devkit](https://abra-electronics.com/robotics-embedded-e
 
 ## Background
 
-- The SvelteKit app is build with the `@sveltejs/static-adapter`.
+- The SvelteKit app is built with the `@sveltejs/static-adapter`.
 - The `build` directory is synced to the flash using `rshell`. Thankfully Svelte bundles are very small, and can fit inside the microcontroller's flash. For larger projects, you can use an SD card.
-- The `firmware` folder contains the Python code to connect to WIFI, and start a WebServer. Just copy it over to the ESP32 using `rshell`.
+- The `firmware` folder contains the Python code to connect to WIFI, and start an HTTP server to serve the SvelteKit build. Just copy it over to the ESP32 using `rshell`.
 
 ## Setup
 
